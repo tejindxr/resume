@@ -4,9 +4,10 @@ import Resume from "./components/resume";
 
 function App() {
   return (
-    <div className="bg-gray-100 min-h-screen py-8">
+     <div className="flex items-center justify-center min-h-screen bg-gray-100 overflow-hidden">
+    {/* <div className=" min-h-screen "> */}
 
-      <h1></h1>
+      
       <Resume/>
         </div>
   );

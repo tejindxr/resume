@@ -1,8 +1,8 @@
-import React from "react";
+ import React from "react";
 
-const Resume = () => {
+const Resume =() => {
   return (
-    <div className="max-w-4xl mx-auto bg-white text-black p-8 font-sans">
+    <div className="max-w-4xl mx-auto bg-white text-black p-8 pt-3 font-sans">
       {/* Header */}
       <div className="text-center mb-6">
         <h1 className="text-3xl font-semibold pb-3">Tejinder Singh</h1>
@@ -28,7 +28,7 @@ const Resume = () => {
         <div className="mb-3">
   <h3 className="font-semibold pt-2">
     SpaceECE India Foundation | E-Learning / Edtech
-    <span className="float-right text-sm">Jul 2024 – Aug 2024</span>
+    <span className="float-right text-sm">Mar 2025 – May 2025</span>
   </h3>
   <p className="italic text-sm">Android Developer</p>
   <ul className="list-disc list-inside text-sm pl-2">
@@ -169,3 +169,5 @@ const Resume = () => {
 };
 
 export default Resume;
+
+
