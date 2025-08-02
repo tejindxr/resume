@@ -68,9 +68,10 @@ const Resume =() => {
       {/* Education */}
       <section className="mb-4">
         <h2 className="text-lg font-semibold border-b border-b-black ">Education</h2>
-        <p className="pt-2"><strong>GGSIPU - BPIT</strong> – B-Tech in Information Technology
-        <div className="float-right text-sm font-semibold text-black">CGPA 8.02/10</div>
+        <p className="pt-2"><strong>B-Tech  Information Technology</strong> 
+        <div className="float-right text-sm font-semibold text-black">CGPA 8.1/10</div>
         </p>
+        <p className="text-sm text-gray-600"> GGSIPU - Bhagwan Parshuram Institute of Technology</p>
         <p className="text-sm text-gray-600">Nov 2022 – Jul 2026</p>
         {/* <p className="text-sm">Core Subjects: DBMS, Data Structures, Algorithms, AI, ML, Image Processing</p> */}
       </section>
@@ -79,6 +80,7 @@ const Resume =() => {
       <section>
         <h2 className="text-lg font-semibold border-b border-b-black">Project Work</h2>
         <ul className="list-disc list-inside text-sm pl-2">
+          
           
           <li className="py-2">
                 <strong>ShoeBox - E-comm Android App : </strong>
@@ -91,6 +93,38 @@ const Resume =() => {
                 integration.<br />
                 
                 </p> 
+
+                <a href="https://github.com/tejindxr/ShoeBox/commit/c645ea820a3f6881511e50ad2c1f6a4099eb6210" target="_blank" rel="noreferrer">
+                  <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
+                      View Screenshots
+                  </button>
+              </a>
+          </li>
+          <li className="pb-2">
+
+            <strong>Restaurant Menu App</strong>
+            <a 
+              href="https://github.com/tejindxr/RestaurantApp" 
+              target="_blank" 
+              rel="noreferrer" 
+              className="underline float-right text-sm text-blue-500"
+            >
+              Restaurant App - Github
+            </a>
+
+            <p>
+              Restaurant Menu Platform: Built using Jetpack Compose and Kotlin 
+              to display dynamic menus fetched from a remote API. Implemented 
+              category filtering, item detail screens, and cart functionality 
+              for a seamless user experience.
+              <br />
+            </p>
+            <a href="https://github.com/tejindxr/RestaurantApp/commit/616114a01024e400ddf5be83f4ab80958d830d63" target="_blank" rel="noreferrer">
+                  <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
+                      View Screenshots
+                  </button>
+              </a>
+
           </li>
 
           <li className="pb-2">
@@ -105,14 +139,21 @@ const Resume =() => {
                 adoption and pet management.
                 <br />
                 </p>
-                
-                
+                <a href="https://github.com/tejindxr/Petify/commit/2213f5264fcc48141702d2288f926b63c658d793" target="_blank" rel="noreferrer">
+                  <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
+                      View Screenshots
+                  </button>
+              </a>
           </li>
+          
+
+
+
 
           <li className="pb-2">
 
                 <strong>WatchBatman - Movie Search Website </strong>
-                <a href="https://watchbatman.vercel.app/"  target="_blank" rel="noreferrer" className="underline float-right text-sm text-blue-500">WatchB- Github</a>
+                <a href="https://watchbatman.vercel.app/"  target="_blank" rel="noreferrer" className="underline float-right text-sm text-blue-500">WatchB- Web</a>
  
                 <p>
                 Built a movie search application in React with Vite, fetching data from OMDb API. 
