@@ -18,7 +18,7 @@ const Resume =() => {
         
         <h2 className="text-lg font-semibold border-b border-b-black">Skills</h2>
         <p><strong>Languages:</strong> Java, Kotlin, JavaScript , HTML , CSS</p>
-        <p><strong>Technologies & Tools:</strong> ReactJS, JetpackCompose, Firebase, MongoDB, Spring, Tailwind</p>
+        <p><strong>Technologies & Tools:</strong>  JetpackCompose, ReactJS, Firebase, MongoDB, Tailwind</p>
       </section>
 
       {/* Experience */}
@@ -64,17 +64,60 @@ const Resume =() => {
 </div>
 
       </section>
-
-      {/* Education */}
-      <section className="mb-4">
-        <h2 className="text-lg font-semibold border-b border-b-black ">Education</h2>
+      
+     
+      {/* <section className="mb-4"> */}
+        {/* <h2 className="text-lg font-semibold border-b border-b-black ">Education</h2>
         <p className="pt-2"><strong>B-Tech  Information Technology</strong> 
         <div className="float-right text-sm font-semibold text-black">CGPA 8.1/10</div>
         </p>
         <p className="text-sm text-gray-600"> GGSIPU - Bhagwan Parshuram Institute of Technology</p>
         <p className="text-sm text-gray-600">Nov 2022 – Jul 2026</p>
-        {/* <p className="text-sm">Core Subjects: DBMS, Data Structures, Algorithms, AI, ML, Image Processing</p> */}
-      </section>
+        <p className="text-sm">Core Subjects: DBMS, Data Structures, Algorithms, AI, ML, Image Processing</p> */}
+      {/* </section> */}
+
+   <section className="mb-4">
+  <h2 className="text-lg font-medium border-b border-b-black">Education</h2>
+
+  {/* B.Tech */}
+  <p className="pt-2">
+    <span className="font-medium">B-Tech Information Technology</span>
+    <div className="float-right text-sm font-medium text-black text-right">
+      CGPA 8.1/10
+      <div className="text-gray-600 text-xs">Nov 2022 – Jul 2026</div>
+    </div>
+  </p>
+  <p className="text-sm text-gray-600">GGSIPU - Bhagwan Parshuram Institute of Technology</p>
+
+  {/* Class 12 */}
+  <p className="pt-2">
+    <span className="font-medium">Class 12 (CBSE)</span>
+    <div className="float-right text-sm font-medium text-black text-right">
+      86.4%
+      <div className="text-gray-600 text-xs">2021</div>
+    </div>
+  </p>
+  <p className="text-sm text-gray-600">DAV Public School, Narela</p>
+
+  {/* Class 10 */}
+  <p className="pt-2">
+    <span className="font-medium">Class 10 (CBSE)</span>
+    <div className="float-right text-sm font-medium text-black text-right">
+      90.4%
+      <div className="text-gray-600 text-xs">2019</div>
+    </div>
+  </p>
+  <p className="text-sm text-gray-600">Mother Khazani Convent School, Mungeshpur</p>
+</section>
+
+
+
+
+
+
+
+
+
 
       {/* Projects */}
       <section>
@@ -94,12 +137,15 @@ const Resume =() => {
                 
                 </p> 
 
-                <a href="https://github.com/tejindxr/ShoeBox/commit/c645ea820a3f6881511e50ad2c1f6a4099eb6210" target="_blank" rel="noreferrer">
+                {/* <a href="https://github.com/tejindxr/ShoeBox/commit/c645ea820a3f6881511e50ad2c1f6a4099eb6210" target="_blank" rel="noreferrer">
                   <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
                       View Screenshots
                   </button>
-              </a>
+              </a> */}
+
           </li>
+
+
           <li className="pb-2">
 
             <strong>Restaurant Menu App</strong>
@@ -119,11 +165,12 @@ const Resume =() => {
               for a seamless user experience.
               <br />
             </p>
-            <a href="https://github.com/tejindxr/RestaurantApp/commit/616114a01024e400ddf5be83f4ab80958d830d63" target="_blank" rel="noreferrer">
+
+            {/* <a href="https://github.com/tejindxr/RestaurantApp/commit/616114a01024e400ddf5be83f4ab80958d830d63" target="_blank" rel="noreferrer">
                   <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
                       View Screenshots
                   </button>
-              </a>
+              </a> */}
 
           </li>
 
@@ -139,11 +186,12 @@ const Resume =() => {
                 adoption and pet management.
                 <br />
                 </p>
-                <a href="https://github.com/tejindxr/Petify/commit/2213f5264fcc48141702d2288f926b63c658d793" target="_blank" rel="noreferrer">
+                 {/* view ss button */}
+                {/* <a href="https://github.com/tejindxr/Petify/commit/2213f5264fcc48141702d2288f926b63c658d793" target="_blank" rel="noreferrer">
                   <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
                       View Screenshots
                   </button>
-              </a>
+              </a> */}
           </li>
           
 
