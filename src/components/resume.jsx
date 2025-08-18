@@ -124,6 +124,40 @@ const Resume =() => {
         <h2 className="text-lg font-semibold border-b border-b-black">Project Work</h2>
         <ul className="list-disc list-inside text-sm pl-2">
           
+
+          <li className="pb-2">
+
+              <strong>Petify - Pet Adoption Website</strong>
+              <a 
+                  href="https://github.com/tejindxr/Petify"  
+                  target="_blank" 
+                  rel="noreferrer" 
+                  className="underline float-right text-sm text-blue-500"
+              >
+                  Petify - Github
+              </a>
+
+              <p>
+                  Adoption Platform: Developing a website using the MERN stack to enable users 
+                  to adopt and list domestic animals. Implementing authentication, listings, 
+                  and an intuitive UI for easy adoption and pet management.
+                  <br />
+              </p>
+
+              {/* view website button */}
+              <a 
+                  href="https://petify-five.vercel.app/" 
+                  target="_blank" 
+                  rel="noreferrer"
+              >
+                  <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
+                      View Website
+                  </button>
+              </a>
+          </li>
+
+
+
           
           <li className="py-2">
                 <strong>ShoeBox - E-comm Android App : </strong>
@@ -137,11 +171,11 @@ const Resume =() => {
                 
                 </p> 
 
-                {/* <a href="https://github.com/tejindxr/ShoeBox/commit/c645ea820a3f6881511e50ad2c1f6a4099eb6210" target="_blank" rel="noreferrer">
+                <a href="https://github.com/tejindxr/ShoeBox/commit/c645ea820a3f6881511e50ad2c1f6a4099eb6210" target="_blank" rel="noreferrer">
                   <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
                       View Screenshots
                   </button>
-              </a> */}
+              </a> 
 
           </li>
 
@@ -166,14 +200,14 @@ const Resume =() => {
               <br />
             </p>
 
-            {/* <a href="https://github.com/tejindxr/RestaurantApp/commit/616114a01024e400ddf5be83f4ab80958d830d63" target="_blank" rel="noreferrer">
+             <a href="https://github.com/tejindxr/RestaurantApp/commit/616114a01024e400ddf5be83f4ab80958d830d63" target="_blank" rel="noreferrer">
                   <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
                       View Screenshots
                   </button>
-              </a> */}
+              </a> 
 
           </li>
-
+{/* 
           <li className="pb-2">
 
                 <strong>Petify - Pet Adoption App</strong>
@@ -186,14 +220,14 @@ const Resume =() => {
                 adoption and pet management.
                 <br />
                 </p>
-                 {/* view ss button */}
-                {/* <a href="https://github.com/tejindxr/Petify/commit/2213f5264fcc48141702d2288f926b63c658d793" target="_blank" rel="noreferrer">
+              
+                 <a href="https://github.com/tejindxr/Petify/commit/2213f5264fcc48141702d2288f926b63c658d793" target="_blank" rel="noreferrer">
                   <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
                       View Screenshots
                   </button>
-              </a> */}
+              </a> 
           </li>
-          
+           */}
 
 
 
